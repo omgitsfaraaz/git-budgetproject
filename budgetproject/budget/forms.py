@@ -1,6 +1,6 @@
 from django import forms
 
 class ExpenseForm(forms.Form):
-	title = forms.Charfield()
+	title = forms.CharField()
 	amount = forms.IntegerField()
-	category = forms.Charfield()
+	category = forms.CharField()
